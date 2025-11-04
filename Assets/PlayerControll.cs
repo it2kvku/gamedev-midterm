@@ -55,7 +55,7 @@ public class PlayerControll : MonoBehaviour
 
     void HandleShooting()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextFireTime)
+        if (Input.GetKeyDown(KeyCode.W) && Time.time >= nextFireTime)
         {
             Shoot();
             
